@@ -194,5 +194,30 @@ public class leetCodeEasy {
             return s1.substring(0, Counter);
         }
     }
+    public static class ValidParentheses{
+        public static void main(String[] args) {
+            String s="]";
+            System.out.println(solution(s));
+        }
+        public static boolean solution(String s){
+            Stack<Character>st=new Stack<>();
+            int i=0;
+            while(i!=s.length()){
+                if(s.charAt(i)=='('||s.charAt(i)=='['||s.charAt(i)=='{')
+                    st.push(s.charAt(i));
+                else{
+                    if(!st.isEmpty() &&(s.charAt(i)==')'&&st.peek()=='('||
+                    s.charAt(i)==']'&&st.peek()=='['||
+                            s.charAt(i)=='}'&&st.peek()=='{'))
+                        st.pop();
+                    else
+                        return false;
+                }
+                i++;
+            }
+            return st.isEmpty();
+        }
+    }
+
 
 }
