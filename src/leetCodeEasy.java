@@ -120,7 +120,7 @@ public class leetCodeEasy {
             return index;
         }
     }
-    public static class RemoveDuplicateInSortedArray{
+    public static class RemoveDuplicateFromSortedArray {
         public static void main(String[] args) {
             int []nums=new int[]{1,2,5,7,8,9,9,10,12,15};
             System.out.println((solution(nums)));

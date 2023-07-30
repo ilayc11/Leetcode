@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98009a93-ba5a-4fcf-94ff-36505d3900c1" name="Changes" comment="Adding problems">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetCodeEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeEasy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.leetCodeEasy$RemoveDuplicateInSortedArray">
+  <component name="RunManager" selected="Application.leetCodeEasy$RemoveDuplicateFromSortedArray">
     <configuration name="leetCodeEasy$MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeEasy$MajorityElement" />
       <module name="untitled" />
@@ -48,8 +48,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetCodeEasy$RemoveDuplicateInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeEasy$RemoveDuplicateInSortedArray" />
+    <configuration name="leetCodeEasy$RemoveDuplicateFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeEasy$RemoveDuplicateFromSortedArray" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,7 +57,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.leetCodeEasy$RemoveDuplicateInSortedArray" />
+        <item itemvalue="Application.leetCodeEasy$RemoveDuplicateFromSortedArray" />
         <item itemvalue="Application.leetCodeEasy$MajorityElement" />
       </list>
     </recent_temporary>
@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690651106480</updated>
       <workItem from="1690651256602" duration="50000" />
-      <workItem from="1690700143479" duration="3704000" />
+      <workItem from="1690700143479" duration="4335000" />
     </task>
     <task id="LOCAL-00001" summary="Adding problems">
       <created>1690651298885</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690702065089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding problems">
+      <created>1690703951667</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690703951667</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
