@@ -136,4 +136,30 @@ public class leetCodeEasy {
 
         }
     }
+    public static class MajorityElement{
+        public static void main(String[] args) {
+            int []nums=new int[]{3,3,2,3,3,2,2,2,2};
+            System.out.println(solution(nums));
+        }
+        public static int solution(int [] nums){
+            /*Using moore voting algorithm,the algorithm is based
+             on the fact that if there is a majority element it will always
+             be in the lead.
+             hashMap could have worked too, but I didn't
+            know how to do it in O(1) space as I was asked to.
+             */
+            int candidate=0;
+            int count=0;
+            for(int num:nums){
+                if(count==0)
+                    candidate=num;
+                if(candidate==num)
+                    count++;
+                if (candidate!=num)
+                    count--;
+            }
+        return candidate;
+        }
+    }
+
 }
