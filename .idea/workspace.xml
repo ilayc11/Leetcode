@@ -53,35 +53,35 @@
   <component name="RunManager" selected="Application.leetCodeEasy$FindtheIndexoftheFirstOccurrenceinaString">
     <configuration name="leetCodeEasy$FindtheIndexoftheFirstOccurrenceinaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeEasy$FindtheIndexoftheFirstOccurrenceinaString" />
-      <module name="untitled" />
+      <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="leetCodeEasy$LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeEasy$LongestCommonPrefix" />
-      <module name="untitled" />
+      <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="leetCodeEasy$MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeEasy$MergeTwoSortedLists" />
-      <module name="untitled" />
+      <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="leetCodeEasy$ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeEasy$ValidParentheses" />
-      <module name="untitled" />
+      <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="leetCodeMedium$lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeMedium$lengthOfLongestSubstring" />
-      <module name="untitled" />
+      <module name="Leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
