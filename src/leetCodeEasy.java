@@ -1,7 +1,4 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Stack;
+import java.util.*;
 
 public class leetCodeEasy {
     public static class TwoSum {
@@ -175,6 +172,26 @@ public class leetCodeEasy {
                     count--;
             }
         return candidate;
+        }
+    }
+    public static class LongestCommonPrefix{
+        public static void main(String[] args) {
+            String[]s=new String[]{"apple","app","application"};
+            System.out.println(solution(s));
+        }
+        public static String solution(String[]s){
+            Arrays.sort(s);
+            String s1 = s[0];
+            String s2 = s[s.length-1];
+            int Counter = 0;
+            while(Counter < s1.length() &&  Counter< s2.length()){
+                if(s1.charAt(Counter) == s2.charAt(Counter)){
+                    Counter++;
+                } else {
+                    break;
+                }
+            }
+            return s1.substring(0, Counter);
         }
     }
 
