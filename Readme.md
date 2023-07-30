@@ -5,6 +5,7 @@ Easy - \
 13\. Roman To Integer\
 14\. Longest Common Prefix\
 20\. Valid Parentheses\
+21\. Merge Two Sorted Lists\
 26\. Remove Duplicates From Sorted Array\
 27\. Remove Element\
 169\. Majority Element\

@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class leetCodeEasy {
+
     public static class TwoSum {
         public static void main(String[] args) {
             int[] nums = new int[]{5, 7, 3, 2, 1};
@@ -217,6 +218,68 @@ public class leetCodeEasy {
             }
             return st.isEmpty();
         }
+    }
+    public static class MergeTwoSortedLists{
+        public static void main(String[] args) {
+
+            ListNode l1=new ListNode(0);
+            ListNode l2=new ListNode(0);
+            l1.next=new ListNode(1,new ListNode(2));
+            l2.next=new ListNode(1,new ListNode(3));
+            ListNode sol=(mySolution(l1,l2));
+        }
+        public static ListNode mySolution(ListNode l1,ListNode l2){
+            if(l1==null&&l2==null)
+                return null;
+            if(l1==null)
+                return l2;
+            if(l2==null)
+                return l1;
+            ListNode l3=new ListNode();
+            ListNode head=l3;
+            while(true){
+                if(l1==null||l2==null){
+                    if(l1==null){
+                        l3.val=l2.val;
+                        l3.next=l2.next;
+                        return head;
+                    }
+                    l3.val=l1.val;
+                    l3.next=l1.next;
+                    return head;
+                }
+                if(l1.val<= l2.val) {
+                    l3.val = l1.val;
+                    l3.next=new ListNode();
+                    l3=l3.next;
+                    l1=l1.next;
+                }
+                else if(l2.val<l1.val){
+                    l3.val=l2.val;
+                    l3.next=new ListNode();
+                    l3=l3.next;
+                    l2=l2.next;
+                }
+
+
+            }
+        }
+        public static ListNode shorterSolution(ListNode list1,ListNode list2){
+            if(list1!=null && list2!=null){
+                if(list1.val<list2.val){
+                    list1.next=shorterSolution(list1.next,list2);
+                    return list1;
+                }
+                else{
+                    list2.next=shorterSolution(list1,list2.next);
+                    return list2;
+                }
+            }
+            if(list1==null)
+                return list2;
+            return list1;
+        }
+
     }
 
 
