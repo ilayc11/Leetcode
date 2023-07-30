@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98009a93-ba5a-4fcf-94ff-36505d3900c1" name="Changes" comment="Adding problems">
-      <change afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetCodeEasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeEasy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetCodeMedium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetCodeMedium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.leetCodeEasy$MergeTwoSortedLists">
+  <component name="RunManager" selected="Application.leetCodeEasy$FindtheIndexoftheFirstOccurrenceinaString">
+    <configuration name="leetCodeEasy$FindtheIndexoftheFirstOccurrenceinaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCodeEasy$FindtheIndexoftheFirstOccurrenceinaString" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="leetCodeEasy$LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeEasy$LongestCommonPrefix" />
       <module name="untitled" />
@@ -62,13 +67,6 @@
     </configuration>
     <configuration name="leetCodeEasy$MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCodeEasy$MergeTwoSortedLists" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetCodeEasy$RemoveDuplicateFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCodeEasy$RemoveDuplicateFromSortedArray" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetCodeEasy$FindtheIndexoftheFirstOccurrenceinaString" />
         <item itemvalue="Application.leetCodeEasy$MergeTwoSortedLists" />
         <item itemvalue="Application.leetCodeEasy$ValidParentheses" />
         <item itemvalue="Application.leetCodeEasy$LongestCommonPrefix" />
         <item itemvalue="Application.leetCodeMedium$lengthOfLongestSubstring" />
-        <item itemvalue="Application.leetCodeEasy$RemoveDuplicateFromSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +106,7 @@
       <updated>1690651106480</updated>
       <workItem from="1690651256602" duration="50000" />
       <workItem from="1690700143479" duration="6053000" />
-      <workItem from="1690710647704" duration="3878000" />
+      <workItem from="1690710647704" duration="5617000" />
     </task>
     <task id="LOCAL-00001" summary="Adding problems">
       <created>1690651298885</created>
@@ -173,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690712608950</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adding problems">
+      <created>1690714812232</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690714812232</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,16 +214,6 @@
           <url>file://$PROJECT_DIR$/src/leetCodeEasy.java</url>
           <line>209</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCodeEasy.java</url>
-          <line>136</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetCodeEasy.java</url>
-          <line>250</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

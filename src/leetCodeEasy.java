@@ -281,6 +281,18 @@ public class leetCodeEasy {
         }
 
     }
+    public static class FindtheIndexoftheFirstOccurrenceinaString{
+        public static void main(String[] args) {
+            String haystack="mississippi";
+            String needle="issip";
+            System.out.println(solution(haystack,needle));
+        }
+        public static int solution (String haystack,String needle){
+            return haystack.indexOf(needle);
+
+        }
+    }
+
 
 
 }

@@ -8,6 +8,7 @@ Easy - \
 21\. Merge Two Sorted Lists\
 26\. Remove Duplicates From Sorted Array\
 27\. Remove Element\
+28\. Find the Index of the First Occurrence in a String\
 169\. Majority Element\
 217\. Contains Duplicate\
 Medium -\
