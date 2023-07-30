@@ -9,4 +9,5 @@ Easy - \
 217\. Contains Duplicate\
 Medium -\
 2\. Add Two Numbers\
+3\. Longest Substring Without Repeating Characters\
 53\. Maximum Subarray\
